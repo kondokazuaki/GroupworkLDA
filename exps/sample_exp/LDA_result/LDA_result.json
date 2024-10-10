@@ -1,0 +1,99 @@
+{
+  "Generated_date": "2024-10-10T20:07:25.219843",
+  "Root_path": "/home/kondo/research/GroupWork/topics/LDA_analysis/for_share/exps/sample_exp",
+  "Scene_duration(sec)": 10.0,
+  "Scene_step(sec)": 1.0,
+  "#_of_scenes": 1071,
+  "Scenes_each_group": [
+    [
+      "group1",
+      "BoIW_data/BoIW_group1.json",
+      1,
+      1071
+    ]
+  ],
+  "Vocabulary": {
+    "talking": "single",
+    "smiling": "single",
+    "nodding": "single",
+    "gesture": "single",
+    "sitting": "single",
+    "shaking_head": "single",
+    "looking_at_desk": "single",
+    "touching_desk": "single",
+    "pointing_desk": "single",
+    "close_to_desk": "single",
+    "looking_at_whiteboard": "single",
+    "touching_whiteboard": "single",
+    "pointing_whiteboard": "single",
+    "close_to_whiteboard": "single",
+    "looking_at_item": "single",
+    "touching_item": "single",
+    "pointing_item": "single",
+    "close_to_item": "single",
+    "looking_at_person": "two-oneway",
+    "touching_person": "two-oneway",
+    "pointing_person": "two-oneway",
+    "close_to_person": "two-oneway",
+    "passing_to_person": "two-oneway",
+    "looking_at+looking_at_mutual": "two-mutual",
+    "pointing+pointing_mutual": "two-mutual",
+    "looking_at+looking_at_person": "two-indirect",
+    "pointing+pointing_person": "two-indirect",
+    "close_to+close_to_person": "two-indirect",
+    "pointing+looking_at_person": "two-indirect",
+    "looking_at+looking_at_desk": "two-indirect",
+    "pointing+pointing_desk": "two-indirect",
+    "touching+touching_desk": "two-indirect",
+    "close_to+close_to_desk": "two-indirect",
+    "pointing+looking_at_desk": "two-indirect",
+    "pointing+touching_desk": "two-indirect",
+    "touching+looking_at_desk": "two-indirect",
+    "looking_at+looking_at_whiteboard": "two-indirect",
+    "pointing+pointing_whiteboard": "two-indirect",
+    "touching+touching_whiteboard": "two-indirect",
+    "close_to+close_to_whiteboard": "two-indirect",
+    "pointing+looking_at_whiteboard": "two-indirect",
+    "pointing+touching_whiteboard": "two-indirect",
+    "touching+looking_at_whiteboard": "two-indirect",
+    "looking_at+looking_at_item": "two-indirect",
+    "pointing+pointing_item": "two-indirect",
+    "touching+touching_item": "two-indirect",
+    "close_to+close_to_item": "two-indirect",
+    "pointing+looking_at_item": "two-indirect",
+    "pointing+touching_item": "two-indirect",
+    "touching+looking_at_item": "two-indirect"
+  },
+  "Analyzed_corpus": "LDA_result/LDA_result_analyzed_BoIW.dat",
+  "Topic_nums": [
+    3,
+    4,
+    5
+  ],
+  "Trained_models": [
+    "LDA_result/LDA_result_model_3topics.pickle",
+    "LDA_result/LDA_result_model_4topics.pickle",
+    "LDA_result/LDA_result_model_5topics.pickle"
+  ],
+  "Model_precisions": [
+    0.6538717912802704,
+    0.6431528667435054,
+    0.6682176006049962
+  ],
+  "Topic_dependencies": [
+    0.792954683303833,
+    0.8871703147888184,
+    0.9432385563850403
+  ],
+  "Perplexities": [
+    14.416485112164649,
+    13.452149237031295,
+    13.351496325444836
+  ],
+  "Scene_fit": [
+    "LDA_result/LDA_result_scene_fit_3topics.dat",
+    "LDA_result/LDA_result_scene_fit_4topics.dat",
+    "LDA_result/LDA_result_scene_fit_5topics.dat"
+  ],
+  "Model_feature_img": "LDA_result/LDA_result_features.jpg"
+}
